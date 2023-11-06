@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+body,html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.raleway{
+    font-family: 'Raleway' , sans-serif;
+}
+.open{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    max-width: 1440px;
+    margin: 50px auto 50px auto;
+}
+header nav{
+    display: flex;
+}
+.logoWrapper{
+    width: 50%;
+    display: flex;
+    
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    
+}
+.herowrapper{
+    display: flex;
+}
+.hero{
+      max-width: 1440px;
+      margin: 0 auto 0 auto;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.navbar ul li{
+    padding: 0 25px 25px 0;
+    font-weight: lighter;
+}
+.heroleft, .heroright{
+    width: 50%;
+}
+.heroright img{
+    width: 100%;
+     
+}
+.heroleft{
+    display: flex;
+    align-items: center ;
+}
+.heroleft__wrapper h1{
+    font-size: 3rem;
+}
+.heroleft__wrapper p{
+    font-size: 1.4rem;
+}
+.heroinput__wrapper input{
+    width: 50%;
+    padding: 5px 10px 5px 10px;
+}
+.heroinput__wrapper a{
+    text-decoration: none;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    margin-left: 15px;
+    padding: 7px 80px 7px 80px;
+    font-size: .85rem;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.curve{
+    
+    width: 100%;
+}
+.curve img{
+    width: 100%;
+}
+.content{
+    display: flex;
+}
+.contentright, .contentleft{
+    width: 50%;
+}
+.contentright img{
+    width: 100%;
+}
+.bf1{
+    justify-content: center;
+    width: 1440px;
+    display: flex ;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+    padding-top: -5px;
+    height: auto;
+  
+}
+.textbf1{
+    display: flex;
+    
+}
+.bf1 h2{
+    font-size: 2.5rem;
+}
+.bf1 p{
+    font-size: 1rem;
+}
+.bck{
+    background-color: hsl(240, 75%, 98%)
+}
+a{
+    color: green;
+    text-decoration: none;
+    border-bottom: 1px solid green;
+}
